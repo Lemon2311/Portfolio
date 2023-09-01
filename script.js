@@ -16,7 +16,7 @@ function getInitialCubeScaleBasedOnWindowSize() {
   const windowWidth = window.innerWidth;
   const windowHeight = window.innerHeight;
   const minSize = Math.min(windowWidth, windowHeight);
-  const initialScale = minSize / 1500; // Adjust the divisor based on your cube's initial size
+  const initialScale = minSize / 1650; // Adjust the divisor based on your cube's initial size
   return initialScale;
 }
 
