@@ -168,6 +168,7 @@ options.forEach(option => {
 document.addEventListener("DOMContentLoaded", function() {
 
   adjustWidthToHeight();
+  setInitialCubeScale();
  
   // Initial animation to face 3
   let animation = cube.animate(rotateToFace1Keyframes, options);
