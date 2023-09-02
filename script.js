@@ -1,7 +1,8 @@
 window.addEventListener("resize", adjustWidthToHeight);
 
 function adjustWidthToHeight() {
-  const windowHeight = window.innerHeight+275;
+  const windowHeight = window.innerHeight+window.innerHeight/3;
+  console.log(window.innerHeight);
   const menu = document.getElementById("menu"); // Corrected: Removed the dot before "menu"
   menu.style.width = `${windowHeight}px`;
 }
