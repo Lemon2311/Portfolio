@@ -41,9 +41,12 @@ function getInitialCubeScaleBasedOnWindowSize() {
   const face = document.querySelectorAll('face');
   
   if(windowWidth>768)
-  initialScale=minSize/1200;
+  initialScale=minSize/1350;
   else
+  if(windowHeight<900)
   initialScale=windowHeight/3500;
+  else
+  initialScale=900/3500;
 
   return initialScale;
 
