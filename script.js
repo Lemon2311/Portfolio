@@ -104,7 +104,7 @@ function getInitialCubeScaleBasedOnWindowSize() {
   };
   
 //for development
-cube.style.transform=rotateToFace4Keyframes[1].transform;
+cube.style.transform=rotateToFace1Keyframes[1].transform;
 //
 
   
