@@ -9,13 +9,14 @@ body {
 }
 
 #cube-container {
-  perspective: 2000px;
+  perspective: 5500px;
 }
 
 #cube {
+  position: relative;
+  left:25px;
   width: 1000px;
   height: 1000px;
-  position: relative;
   transform-style: preserve-3d;
   animation: rotate 6s infinite linear;
 }
@@ -59,6 +60,7 @@ body {
 .bottom {
   transform: rotateX(-90deg) translateZ(500px);
 }
+
 
 .slider-container {
   position: absolute;
@@ -111,6 +113,7 @@ body {
   align-items: center;
   overflow: hidden;
   font-family: "Roboto", sans-serif;
+  
 }
 .bod .credit {
   position: absolute;
@@ -125,6 +128,7 @@ body {
   overflow: hidden;
   min-width: 600px;
   height: 460px;
+  
 }
 
 .bod .options .option {
@@ -224,6 +228,7 @@ bodddd {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  
 }
 
 .card {
@@ -241,6 +246,7 @@ bodddd {
   margin: -50px;
   transition: all 1s ease;
   background-color: var(--bgColorMenu);
+
 }
 
 
@@ -449,7 +455,7 @@ input {
   background: transparent;
   outline: none;
   color: var(--bgColorMenu);
-  border: solid 1px var(--bgColorMenu);
+  border: solid 3px var(--bgColorMenu);
   border-bottom: none;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -469,7 +475,7 @@ textarea {
   color: var(--bgColorMenu);
   font-family: "Raleway", sans-serif;
   font-size: 0.875em;
-  border: solid 1px var(--bgColorMenu);
+  border: solid 3px var(--bgColorMenu);
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -486,8 +492,9 @@ textarea {
   color: var(--bgColorMenu);
   outline: none;
   cursor: pointer;
-  border: solid 1px var(--bgColorMenu);
+  border: solid 3px var(--bgColorMenu);
   border-top: none;
+  transform: translateY(-5px);
 }
 
 #submit:hover {
@@ -614,8 +621,6 @@ textarea {
 /*# sourceMappingURL=style.css.map */
 
 
-
-
 #myImg{
 
   transform: translateX(230px) translateY(227px) scale(1.5);
@@ -639,6 +644,8 @@ textarea {
   cursor: pointer;
   transition: 0.3s;
 }
+
+
 
 #img4{
   
@@ -827,6 +834,8 @@ textarea {
   font-size: 50px;
   color: var(--bgColorMenu);
   font-family: "Raleway", sans-serif;
+  -webkit-text-stroke: 2px beige; /* Outline color and width for Webkit (Chrome, Safari, etc.) */
+  text-stroke: 2px beige; 
   position: absolute;
   bottom: 10px; /* Adjust the distance from the bottom as needed */
   right: 10px; /* Adjust the distance from the right as needed */
@@ -839,6 +848,9 @@ textarea {
 
 
 
+.close{
+  transform: scale(3) translateY(5px);
+}
 
 
 
@@ -846,6 +858,90 @@ textarea {
 
 
 
+
+@media screen and (max-width: 768px) {
+  /* CSS styles for screens up to 768px wide (e.g., phones) */
+  #cube{
+    left: 150px;
+  width: 1400px;
+  height: 2900px;
+  max-height: 2900px;
+  }
+
+  .face{
+    width: 1400px;
+    height: 2900px;
+  }
+
+  .front {
+    transform: translateZ(700px);
+  }
+  
+  .back {
+    transform: translateZ(-700px) rotateY(180deg);
+  }
+  
+  .right {
+    transform: rotateY(-90deg) translateZ(700px);
+    
+  }
+  
+  .left {
+    transform: rotateY(90deg) translateZ(700px);
+  }
+  
+  .top {
+    transform: rotateX(90deg) translateZ(700px);
+    height: 1400PX;
+  }
+  
+  .bottom {
+    transform: rotateX(-90deg) translateZ(600px);
+  }
+
+  .bod{
+    transform: scale(2.5)rotateZ(90deg);
+  }
+
+  .card-container{
+    transform: scale(3.5);
+  }
+
+  #myImg{
+
+    transform: translateX(270px) translateY(1137px) scale(3);
+  
+  }
+  
+  #img2{
+    
+    transform: translateX(690px) translateY(850px) scale(3);
+    
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #img3{
+    
+    transform: translateX(600px) translateY(270px) scale(3);
+    
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .image-container{
+    transform: translateY(0px);
+  }
+
+  #myModal{
+    transform: translateY(90px);
+  }
+
+
+
+}
 
 
 

@@ -7,10 +7,20 @@ adjustWidthToHeight();
 window.addEventListener("resize", adjustWidthToHeight);
 
 function adjustWidthToHeight() {
+
+   
+  const cube = document.getElementById('cube-container');
+
+
   const windowHeight = window.innerHeight+window.innerHeight/3;
-  console.log(window.innerHeight);
+  console.log(window.innerHeight,window.innerWidth);
   const menu = document.getElementById("menu"); // Corrected: Removed the dot before "menu"
   menu.style.width = `${windowHeight}px`;
+
+
+  cube.style.height=window.innerHeight;
+  cube.style.width=window.innerWidth;
+
 }
 
 // Call the function initially to set the width based on the initial window height
@@ -23,8 +33,20 @@ function getInitialCubeScaleBasedOnWindowSize() {
   const windowWidth = window.innerWidth;
   const windowHeight = window.innerHeight;
   const minSize = Math.min(windowWidth, windowHeight);
-  const initialScale = minSize / 1650; // Adjust the divisor based on your cube's initial size
+
+  console.log(windowHeight);
+
+  let initialScale;
+
+  const face = document.querySelectorAll('face');
+  
+  if(windowWidth>768)
+  initialScale=minSize/1200;
+  else
+  initialScale=windowHeight/3500;
+
   return initialScale;
+
 }
 
 
@@ -79,7 +101,7 @@ function getInitialCubeScaleBasedOnWindowSize() {
   };
   
 //for development
-cube.style.transform=rotateToFace1Keyframes[1].transform;
+cube.style.transform=rotateToFace4Keyframes[1].transform;
 //
 
   
