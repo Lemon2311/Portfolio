@@ -1,3 +1,9 @@
+adjustWidthToHeight();
+
+
+
+
+
 window.addEventListener("resize", adjustWidthToHeight);
 
 function adjustWidthToHeight() {
@@ -8,7 +14,7 @@ function adjustWidthToHeight() {
 }
 
 // Call the function initially to set the width based on the initial window height
-adjustWidthToHeight();
+
 
 
 
