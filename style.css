@@ -3,7 +3,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   margin: 0;
   background: #252A34;
 }
@@ -863,7 +862,7 @@ textarea {
 @media screen and (max-width: 768px) {
   /* CSS styles for screens up to 768px wide (e.g., phones) */
   #cube{
-    left: 150px;
+    left: 250px;
   width: 1400px;
   height: 2900px;
   max-height: 2900px;

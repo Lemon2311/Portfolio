@@ -44,7 +44,7 @@ function getInitialCubeScaleBasedOnWindowSize() {
   initialScale=minSize/1350;
   else
   if(windowHeight<900)
-  initialScale=windowHeight/3500;
+  initialScale=windowHeight/5000;
   else
   initialScale=900/3500;
 
