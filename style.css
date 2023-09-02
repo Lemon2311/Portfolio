@@ -310,16 +310,15 @@ body {
 .menu {
   margin: 0;
   display: flex;
-  
   font-size: 1.5em;
   padding: 0 2.85em;
   position: absolute;
   align-items: center;
-  left: 90px;
+  left: 75px;
   top: -20px;
   justify-content: center;
   background-color: var(--bgColorMenu);
-  transform: rotate(90deg); /* Add this line */
+  transform: rotate(90deg) scale(0.8); /* Add this line */
   transform-origin: top left;
 }
 
