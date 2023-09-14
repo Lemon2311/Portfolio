@@ -248,9 +248,10 @@ bodddd {
 
 }
 
-
 .card:hover {
-  margin: 100px;
+  margin: 5px;
+  -webkit-filter: invert(100%);
+  filter:invert(100%);
 }
 
 .card1:hover {
