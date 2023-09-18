@@ -249,7 +249,7 @@ bodddd {
 }
 
 .card:hover {
-  margin: 5px;
+  margin-top: 5px;
   -webkit-filter: invert(100%);
   filter:invert(100%);
 }
@@ -661,7 +661,7 @@ textarea {
 
 
 #fontys{
-  transform: scale(0.8) rotatez(-90deg) translateY(-250px) translateX(355px);
+  transform: scale(0.8) rotatez(-90deg) translateY(-285px) translateX(355px);
 }
 
 
