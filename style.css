@@ -245,7 +245,6 @@ bodddd {
   margin: -50px;
   transition: all 1s ease;
   background-color: var(--bgColorMenu);
-
 }
 
 .card:hover {
@@ -259,7 +258,7 @@ bodddd {
 }
 
 .card1 {
-  z-index: 10;
+  z-index: 100;
 }
 
 body {

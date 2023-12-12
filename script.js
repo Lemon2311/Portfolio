@@ -476,7 +476,8 @@ async function createProjectCards() {
       cardContent.classList.add('card-content');  // Apply a class to the content container
       
       const text = document.createElement('h1');
-      text.textContent = project.name; // You can customize this to include more project information
+      const projectName = project.name.replace(/-(.)/g, (_, match) => match.toUpperCase());
+      text.textContent = projectName;
       
       cardContent.appendChild(text);  // Add the text to the content container
       
