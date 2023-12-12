@@ -251,6 +251,7 @@ bodddd {
   margin-top: 5px;
   -webkit-filter: invert(100%);
   filter:invert(100%);
+  transform: translateX(100px) translateY(100px) rotateZ(50deg);
 }
 
 .card1:hover {
@@ -543,7 +544,8 @@ textarea {
 
 #gitHubIcon {
   width: 1500%;
-  transform: translatex(75px);
+  transform: translatex(75px) translateZ(30px);
+  
 }
 
 .main {
