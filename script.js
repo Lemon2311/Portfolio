@@ -592,9 +592,6 @@ window.addEventListener('resize', () => {
 
 
 
-
-
-
 function showModal(item) {
   const modal = item.querySelector('.hover-modal');
   modal.style.display = 'block';
@@ -609,6 +606,15 @@ function hideModal(item) {
 
 
 
+
+window.addEventListener('load', function() {
+  var loadingScreen = document.getElementById('loadingScreen');
+  if (loadingScreen) {
+      loadingScreen.style.display = 'none';
+  }
+
+  adjustWidthToHeight();
+});
 
 
 

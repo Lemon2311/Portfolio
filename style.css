@@ -242,13 +242,14 @@ bodddd {
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
   perspective: 400px;
   transform: rotateX(50deg) rotateZ(50deg);
-  margin: -50px;
+  margin: -80px;
   transition: all 1s ease;
+  padding-bottom: 195px;
   background-color: var(--bgColorMenu);
 }
 
 .card:hover {
-  margin-top: 5px;
+  margin-top: 50px;
   -webkit-filter: invert(100%);
   filter:invert(100%);
   transform: translateX(100px) translateY(100px) rotateZ(50deg);
@@ -568,7 +569,7 @@ textarea {
   font-size: 24px;
   color: beige;
   position: relative;
-  top:85px;
+  top:140px;
   left:35px;
 }
 
@@ -945,6 +946,23 @@ textarea {
 
 
 }
+
+
+
+.loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:var(--bgColorMenu);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* High z-index to overlay over other content */
+  font-size: 2em;
+}
+
 
 
 
