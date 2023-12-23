@@ -249,10 +249,10 @@ bodddd {
 }
 
 .card:hover {
-  margin-top: 50px;
+  margin-top: 0px;
   -webkit-filter: invert(100%);
   filter:invert(100%);
-  transform: translateX(100px) translateY(100px) rotateZ(50deg);
+  transform: translateX(50px) translateY(50px) rotateZ(15deg);
 }
 
 .card1:hover {
