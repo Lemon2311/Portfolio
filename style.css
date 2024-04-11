@@ -516,6 +516,10 @@ textarea {
   color: var(--bgColorMenu);
 }
 
+h3{
+  color: var(--bgColorMenu);
+}
+
 .image-container {
   display: grid;
   grid-template-columns: repeat(2, 200px);
@@ -621,8 +625,11 @@ textarea {
   transform: scale(9) rotatez(-90deg) translatex(22.1px) translatey(6px);
 }
 
-/*# sourceMappingURL=style.css.map */
+.skillIcon11{
+  transform: scale(14) rotatez(-90deg) translatex(30.5px) translatey(12.6px);
+} 
 
+/*# sourceMappingURL=style.css.map */
 
 #myImg{
 
