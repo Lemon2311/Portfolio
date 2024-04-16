@@ -292,7 +292,7 @@ const elts = {
   text2: document.getElementById("text2"),
 };
 
-const initialTexts = ["Hello", "my", "name", "is", "Marco", "I", "<3", "tech"];
+const initialTexts = ["Hello", "I`m", "Marco", "I", "<3", "tech"];
 
 let texts = initialTexts;
 
