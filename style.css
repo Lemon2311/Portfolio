@@ -806,7 +806,7 @@ h3{
   display: block;
   
   animation-name: comeFromLeft;
-  animation-duration: 1.5s;
+  animation-duration: 0.65s;
   animation-fill-mode: forwards;
 
 }
