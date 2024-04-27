@@ -4,7 +4,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0;
-  background: #252A34;
+  background: #252a34;
 }
 
 #cube-container {
@@ -13,7 +13,7 @@ body {
 
 #cube {
   position: relative;
-  left:25px;
+  left: 25px;
   width: 1000px;
   height: 1000px;
   transform-style: preserve-3d;
@@ -59,7 +59,6 @@ body {
 .bottom {
   transform: rotateX(-90deg) translateZ(500px);
 }
-
 
 .slider-container {
   position: absolute;
@@ -112,7 +111,6 @@ body {
   align-items: center;
   overflow: hidden;
   font-family: "Roboto", sans-serif;
-  
 }
 .bod .credit {
   position: absolute;
@@ -127,7 +125,6 @@ body {
   overflow: hidden;
   min-width: 600px;
   height: 460px;
-  
 }
 
 .bod .options .option {
@@ -145,7 +142,7 @@ body {
 .bod .options .option.active {
   flex-grow: 10000;
   transform: scale(1);
-  
+
   margin: 5px;
   border-radius: 40px;
   background-size: auto 100%;
@@ -154,7 +151,8 @@ body {
   }*/
 }
 .bod .options .option.active .shadow {
-  box-shadow: inset 0 -120px 120px -120px black, inset 0 -120px 120px -100px black;
+  box-shadow: inset 0 -120px 120px -120px black,
+    inset 0 -120px 120px -100px black;
 }
 .bod .options .option.active .label {
   bottom: 20px;
@@ -218,7 +216,8 @@ body {
 }
 
 bodddd {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .card-container {
@@ -227,7 +226,6 @@ bodddd {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
 }
 
 .card {
@@ -251,7 +249,7 @@ bodddd {
 .card:hover {
   margin-top: 0px;
   -webkit-filter: invert(100%);
-  filter:invert(100%);
+  filter: invert(100%);
   transform: translateX(50px) translateY(50px) rotateZ(15deg);
 }
 
@@ -516,7 +514,7 @@ textarea {
   color: var(--bgColorMenu);
 }
 
-h3{
+h3 {
   color: var(--bgColorMenu);
 }
 
@@ -549,8 +547,7 @@ h3{
 
 #gitHubIcon {
   width: 1500%;
-  transform: translatex(75px) translateZ(30px);
-  
+  transform: translatex(75px) translateZ(30px) translateY(12px);
 }
 
 .main {
@@ -573,8 +570,8 @@ h3{
   font-size: 24px;
   color: beige;
   position: relative;
-  top:140px;
-  left:15px;
+  top: 140px;
+  left: 15px;
 }
 
 .firstLayer {
@@ -625,64 +622,46 @@ h3{
   transform: scale(9) rotatez(-90deg) translatex(22.1px) translatey(6px);
 }
 
-.skillIcon11{
+.skillIcon11 {
   transform: scale(18) rotatez(-90deg) translatex(27.5px) translatey(9.5px);
-} 
+}
 
-.skillIcon12{
+.skillIcon12 {
   transform: scale(20) rotatez(-90deg) translatex(16.5px) translatey(8.8px);
-} 
+}
 
 /*# sourceMappingURL=style.css.map */
 
-#myImg{
-
+#myImg {
   transform: translateX(230px) translateY(227px) scale(1.5);
-
 }
 
-#img2{
-  
+#img2 {
   transform: translateX(320px) translateY(50px) scale(1.5);
-  
+
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
 }
 
-#img3{
-  
+#img3 {
   transform: translateX(390px) translateY(-25px) scale(1.5);
-  
+
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
 }
 
-
-
-#img4{
-  
+#img4 {
 }
 
-
-.image-container{
+.image-container {
   transform: translateY(90px);
 }
 
-
-
-
-#fontys{
+#fontys {
   transform: scale(0.8) rotatez(-90deg) translateY(-285px) translateX(355px);
-
 }
-
-
-
-
-
-
 
 #myImg {
   border-radius: 5px;
@@ -690,9 +669,15 @@ h3{
   transition: 0.3s;
 }
 
-#myImg:hover {opacity: 0.8;}
-#img2:hover {opacity: 0.8;}
-#img3:hover {opacity: 0.8;}
+#myImg:hover {
+  opacity: 0.8;
+}
+#img2:hover {
+  opacity: 0.8;
+}
+#img3:hover {
+  opacity: 0.8;
+}
 
 /* The Modal (background) */
 .modal {
@@ -705,8 +690,8 @@ h3{
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
 }
 
 /* Modal Content (image) */
@@ -731,7 +716,8 @@ h3{
 }
 
 /* Add Animation */
-.modal-content, #caption {  
+.modal-content,
+#caption {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
@@ -739,13 +725,21 @@ h3{
 }
 
 @-webkit-keyframes zoom {
-  from {-webkit-transform:scale(0)} 
-  to {-webkit-transform:scale(3)}
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(3);
+  }
 }
 
 @keyframes zoom {
-  from {transform:scale(0)} 
-  to {transform:scale(1)}
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
 }
 
 /* The Close Button */
@@ -767,27 +761,16 @@ h3{
 }
 
 /* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 700px) {
   .modal-content {
     width: 100%;
   }
 }
 
-
-
-
-.image-container{
+.image-container {
   width: 100%;
   height: 100%;
 }
-
-
-
-
-
-
-
-
 
 @keyframes comeFromLeft {
   0% {
@@ -798,21 +781,16 @@ h3{
   }
 }
 
-
-
-
 .item {
-
   cursor: pointer;
 }
 
 .item:hover .hover-modal {
   display: block;
-  
+
   animation-name: comeFromLeft;
   animation-duration: 0.65s;
   animation-fill-mode: forwards;
-
 }
 
 .hover-modal {
@@ -824,10 +802,9 @@ h3{
   border-radius: 3.5px;
   left: -54px;
   transform: translateX(-172.5px) rotateZ(-90deg);
-  outline:none;
-  border:none;
+  outline: none;
+  border: none;
   font-family: "Raleway", sans-serif;
-  
 }
 
 .arrow {
@@ -843,47 +820,35 @@ h3{
   transform: translateX(-43px) translatey(-23px) rotateZ(-90deg);
 }
 
-
-
 #cvButton {
   font-size: 50px;
   color: var(--bgColorMenu);
   font-family: "Raleway", sans-serif;
   -webkit-text-stroke: 2px beige; /* Outline color and width for Webkit (Chrome, Safari, etc.) */
-  text-stroke: 2px beige; 
+  text-stroke: 2px beige;
   position: absolute;
   bottom: 10px; /* Adjust the distance from the bottom as needed */
   right: 10px; /* Adjust the distance from the right as needed */
 }
 
 #cvButton:hover {
-   opacity: 0.85;
+  opacity: 0.85;
 }
 
-
-
-
-.close{
+.close {
   transform: scale(3) translateY(5px);
 }
 
-
-
-
-
-
-
-
 @media screen and (max-width: 768px) {
   /* CSS styles for screens up to 768px wide (e.g., phones) */
-  #cube{
+  #cube {
     left: 250px;
-  width: 1400px;
-  height: 2900px;
-  max-height: 2900px;
+    width: 1400px;
+    height: 2900px;
+    max-height: 2900px;
   }
 
-  .face{
+  .face {
     width: 1400px;
     height: 2900px;
   }
@@ -891,74 +856,64 @@ h3{
   .front {
     transform: translateZ(700px);
   }
-  
+
   .back {
     transform: translateZ(-700px) rotateY(180deg);
   }
-  
+
   .right {
     transform: rotateY(-90deg) translateZ(700px);
-    
   }
-  
+
   .left {
     transform: rotateY(90deg) translateZ(700px);
   }
-  
+
   .top {
     transform: rotateX(90deg) translateZ(700px);
-    height: 1400PX;
+    height: 1400px;
   }
-  
+
   .bottom {
     transform: rotateX(-90deg) translateZ(600px);
   }
 
-  .bod{
+  .bod {
     transform: scale(2.5) rotateZ(90deg);
   }
 
-  .card-container{
+  .card-container {
     transform: scale(3.5);
   }
 
-  #myImg{
-
+  #myImg {
     transform: translateX(270px) translateY(1137px) scale(3);
-  
   }
-  
-  #img2{
-    
+
+  #img2 {
     transform: translateX(690px) translateY(850px) scale(3);
-    
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-  }
-  
-  #img3{
-    
-    transform: translateX(600px) translateY(270px) scale(3);
-    
+
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
   }
 
-  .image-container{
+  #img3 {
+    transform: translateX(600px) translateY(270px) scale(3);
+
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .image-container {
     transform: translateY(0px);
   }
 
-  #myModal{
+  #myModal {
     transform: translateY(90px);
   }
-
-
-
 }
-
-
 
 .loading-screen {
   position: fixed;
@@ -966,17 +921,10 @@ h3{
   left: 0;
   width: 100%;
   height: 100%;
-  background:var(--bgColorMenu);
+  background: var(--bgColorMenu);
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 1000; /* High z-index to overlay over other content */
   font-size: 2em;
 }
-
-
-
-
-
-
-
