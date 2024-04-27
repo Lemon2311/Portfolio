@@ -388,7 +388,6 @@ async function createProjectCards() {
 
   try {
     const projects = await getGithubProjects();
-
     projects.forEach((project, index) => {
       const card = document.createElement("div");
       card.classList.add("card");
@@ -419,6 +418,14 @@ async function createProjectCards() {
         .card { position: relative; }  /* Ensure positioning context */
         .card-content { position: absolute; top: 0; bottom: 0; left: 0; right: 0; }  /* Span entire card */
       `;
+
+      // Add transform x of 100px to cards after nr 10
+      if (index >= 18) {
+        style.textContent += `
+          .${cardClass} { left : 200px; top: -210px;}
+        `;
+      }
+
       document.head.appendChild(style);
 
       projectsContainer.appendChild(card);
