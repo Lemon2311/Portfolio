@@ -602,19 +602,19 @@ h3{
 }
 
 .skillIcon5 {
-  transform: scale(20) rotatez(-90deg) translatex(3px) translatey(3px);
+  transform: scale(27) rotatez(-90deg) translatex(2.2px) translatey(2.2px);
 }
 
 .skillIcon6 {
-  transform: scale(16) rotatez(-90deg) translatex(12px) translatey(4px);
+  transform: scale(20) rotatez(-90deg) translatex(9.5px) translatey(3.1px);
 }
 
 .skillIcon7 {
-  transform: scale(16) rotatez(-90deg) translatex(34.5px) translatey(4px);
+  transform: scale(21) rotatez(-90deg) translatex(29.7px) translatey(3px);
 }
 
 .skillIcon8 {
-  transform: scale(15) rotatez(-90deg) translatex(5px) translatey(12px);
+  transform: scale(20) rotatez(-90deg) translatex(3.5px) translatey(8.8px);
 }
 
 .skillIcon9 {
@@ -626,7 +626,11 @@ h3{
 }
 
 .skillIcon11{
-  transform: scale(14) rotatez(-90deg) translatex(30.5px) translatey(12.6px);
+  transform: scale(18) rotatez(-90deg) translatex(27.5px) translatey(9.5px);
+} 
+
+.skillIcon12{
+  transform: scale(20) rotatez(-90deg) translatex(16.5px) translatey(8.8px);
 } 
 
 /*# sourceMappingURL=style.css.map */
