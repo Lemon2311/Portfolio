@@ -928,3 +928,7 @@ h3 {
   z-index: 1000; /* High z-index to overlay over other content */
   font-size: 2em;
 }
+
+#mailBox {
+   transition: filter 0.5s ease;
+}

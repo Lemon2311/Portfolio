@@ -521,3 +521,17 @@ window.addEventListener("load", function () {
 
   adjustWidthToHeight();
 });
+
+// mailBox hover effect
+document.addEventListener('DOMContentLoaded', (event) => {
+  const mail = document.getElementById('mail');
+  const mailBox = document.getElementById('mailBox');
+
+  mail.addEventListener('mouseover', () => {
+    mailBox.style.filter = 'invert(100%)';
+  });
+
+  mail.addEventListener('mouseout', () => {
+    mailBox.style.filter = 'none';
+  });
+});
